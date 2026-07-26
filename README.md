@@ -3,38 +3,27 @@
 ব্যাকএন্ড ও সিস্টেম ডিজাইন ইন্টারভিউয়ের ১২টা বিষয়ের বাংলা নোট।
 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) থিম + Jekyll + GitHub Pages।
 
-🔗 **সাইট:** https://__GH_USERNAME__.github.io
+🔗 **সাইট:** https://sifulovi.github.io
 
 ---
 
-## 🚀 প্রথমবার সেটআপ (৪ ধাপ)
+## 🚀 প্রথমবার সেটআপ (৩ ধাপ)
 
-### ধাপ ১ — GitHub username বসান
+### ধাপ ১ — GitHub-এ রিপো বানান
 
-রিপোতে `__GH_USERNAME__` নামে একটা প্লেসহোল্ডার আছে। আপনার আসল username দিয়ে বদলে নিন:
+এটা একটা **user site**, তাই রিপোর নাম **অবশ্যই** `sifulovi.github.io` হতে হবে — নইলে সাইট ডোমেইনের রুটে দেখাবে না।
 
-```bash
-grep -rl '__GH_USERNAME__' . --exclude-dir=.git | xargs sed -i 's/__GH_USERNAME__/আপনার-username/g'
+[github.com/new](https://github.com/new) → নাম দিন `sifulovi.github.io` → **Public** → README/gitignore/license কিছুই যোগ করবেন না (এখানে আগেই আছে)।
 
-# যাচাই করুন — কোনো আউটপুট না এলে ঠিক আছে
-grep -rn '__GH_USERNAME__' . --exclude-dir=.git
-```
-
-### ধাপ ২ — GitHub-এ রিপো বানান
-
-এটা একটা **user site**, তাই রিপোর নাম **অবশ্যই** `<username>.github.io` হতে হবে — নইলে সাইট রুটে দেখাবে না।
-
-github.com/new → নাম দিন `<username>.github.io` → **Public** → README/gitignore কিছু যোগ করবেন না।
-
-### ধাপ ৩ — পুশ করুন
+### ধাপ ২ — পুশ করুন
 
 ```bash
-git remote add origin git@github.com:আপনার-username/আপনার-username.github.io.git
+git remote add origin git@github.com:sifulovi/sifulovi.github.io.git
 git branch -M main
 git push -u origin main
 ```
 
-### ধাপ ৪ — Pages চালু করুন
+### ধাপ ৩ — Pages চালু করুন
 
 রিপোর **Settings → Pages → Build and deployment → Source** এ **GitHub Actions** বাছুন।
 
