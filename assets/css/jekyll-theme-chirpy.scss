@@ -1,0 +1,71 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* ==========================================================================
+   বাংলা টাইপোগ্রাফি
+   --------------------------------------------------------------------------
+   ল্যাটিন ফন্টগুলো (Lato, Source Sans Pro) আগে রাখা হয়েছে, তাই ইংরেজি লেখা ও
+   কোড আগের মতোই দেখাবে। বাংলা অক্ষরের গ্লিফ ওগুলোতে নেই, তাই ব্রাউজার নিজে
+   থেকেই Noto Sans Bengali-তে fallback করবে।
+   ========================================================================== */
+
+$latin-stack: 'Lato', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+  'Segoe UI', Roboto, sans-serif;
+$bengali-stack: 'Noto Sans Bengali', 'Hind Siliguri', 'Nirmala UI', 'Bangla MN',
+  'Kohinoor Bangla', 'Lohit Bengali';
+
+body {
+  font-family: $latin-stack, $bengali-stack;
+}
+
+/* কোড ব্লকে মনোস্পেস আগে, বাংলা কমেন্টের জন্য fallback পরে */
+code,
+pre,
+kbd,
+samp {
+  font-family: 'Menlo', 'Consolas', 'DejaVu Sans Mono', monospace, $bengali-stack;
+}
+
+/* ==========================================================================
+   পঠনযোগ্যতা
+   --------------------------------------------------------------------------
+   বাংলা লিপিতে মাত্রা ও যুক্তাক্ষর থাকায় ল্যাটিনের চেয়ে বেশি line-height
+   দরকার — নইলে লাইনগুলো চেপে থাকে।
+   ========================================================================== */
+
+.post-content {
+  line-height: 1.85;
+
+  /* যুক্তাক্ষরের মাঝে যেন শব্দ ভেঙে না যায় */
+  overflow-wrap: break-word;
+  word-break: normal;
+
+  li {
+    line-height: 1.85;
+  }
+
+  /* বড় টেবিলগুলো ছোট স্ক্রিনে যেন পেজ ছড়িয়ে না ফেলে */
+  table {
+    font-size: 0.95rem;
+  }
+}
+
+/* সাইডবারের TOC-তে বাংলা শিরোনাম প্রায়ই লম্বা হয় */
+#toc-wrapper {
+  li a {
+    line-height: 1.5;
+  }
+}

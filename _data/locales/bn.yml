@@ -1,0 +1,101 @@
+# বাংলা (bn) লোকেল — সাইটের লেআউটের লেখাগুলো
+#
+# Chirpy থিমে ডিফল্টভাবে bn.yml নেই, তাই এটা এখানে যোগ করা হয়েছে।
+# _config.yml-এ `lang: bn` থাকায় থিম এই ফাইলটাই ব্যবহার করবে।
+# মূল কাঠামো: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/_data/locales/en.yml
+
+# ----- সাধারণ লেবেল -----
+
+layout:
+  post: পোস্ট
+  category: বিভাগ
+  tag: ট্যাগ
+
+# সাইডবারের ট্যাবগুলো
+tabs:
+  # ফরম্যাট: <extension_ছাড়া_ফাইলের_নাম>: <মান>
+  home: হোম
+  categories: বিভাগ
+  tags: ট্যাগ
+  archives: আর্কাইভ
+  about: পরিচিতি
+
+# সার্চ বার ও সার্চ ফলাফলের লেখা
+search:
+  hint: খুঁজুন
+  cancel: বাতিল
+  no_results: দুঃখিত! কিছু খুঁজে পাওয়া যায়নি।
+
+panel:
+  lastmod: সম্প্রতি হালনাগাদ
+  trending_tags: জনপ্রিয় ট্যাগ
+  toc: সূচিপত্র
+
+copyright:
+  # পোস্টের নিচে দেখানো হয়
+  license:
+    template: এই পোস্টটি লেখকের পক্ষ থেকে :LICENSE_NAME লাইসেন্সের অধীনে প্রকাশিত।
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # ফুটারে দেখানো হয়
+  brief: কিছু অধিকার সংরক্ষিত।
+  verbose: >-
+    অন্যভাবে উল্লেখ না থাকলে, এই সাইটের সব লেখা লেখকের পক্ষ থেকে
+    Creative Commons Attribution 4.0 International (CC BY 4.0) লাইসেন্সের অধীনে প্রকাশিত।
+
+meta: :PLATFORM-এ :THEME থিম ব্যবহার করা হয়েছে।
+
+not_found:
+  statement: দুঃখিত, এই লিংকটা হারিয়ে গেছে অথবা এমন কিছুর দিকে ইঙ্গিত করছে যার অস্তিত্ব নেই।
+
+notification:
+  update_found: নতুন লেখা পাওয়া গেছে
+  update: হালনাগাদ করুন
+
+theme:
+  light: আলো
+  dark: অন্ধকার
+  system: সিস্টেম
+
+# ----- পোস্ট সংক্রান্ত লেবেল -----
+
+post:
+  written_by: লিখেছেন
+  posted: প্রকাশিত
+  updated: হালনাগাদ
+  words: শব্দ
+  pageview_measure: বার পড়া হয়েছে
+  read_time:
+    unit: মিনিট
+    prompt: পড়তে লাগবে
+  edit: এই পোস্টটি সম্পাদনা করুন
+  relate_posts: আরও পড়ুন
+  share: শেয়ার করুন
+  button:
+    next: পরেরটি
+    previous: আগেরটি
+    copy_code:
+      succeed: কপি হয়েছে!
+    share_link:
+      title: লিংক কপি করুন
+      succeed: লিংক কপি হয়েছে!
+
+# তারিখের ফরম্যাট
+# দেখুন: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
+df:
+  post:
+    strftime: "%d %b, %Y"
+    dayjs: "ll"
+  archives:
+    strftime: "%b"
+    dayjs: "MMM"
+
+# বিভাগের পাতা
+categories:
+  category_measure:
+    singular: বিভাগ
+    plural: বিভাগ
+  post_measure:
+    singular: পোস্ট
+    plural: পোস্ট
