@@ -1,7 +1,7 @@
 ---
 title: "কম্পিউটার নেটওয়ার্কিং"
 description: "OSI মডেল, TCP vs UDP, DNS, NAT, HTTPS, Three-way Handshake — আর \"google.com লিখলে কী হয়\"।"
-date: 2026-07-26 19:00:00 +0600
+date: 2026-07-26 11:00:00 +0600
 categories: [Fundamentals]
 tags: [networking, tcp, http, dns, osi]
 ---

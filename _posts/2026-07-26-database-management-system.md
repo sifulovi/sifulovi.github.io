@@ -1,7 +1,7 @@
 ---
 title: "DBMS — ডেটাবেজ ম্যানেজমেন্ট সিস্টেম"
 description: "ACID, Normalization, Indexing, B+ Tree, Sharding, Lock ও Transaction — বাস্তব উদাহরণ সহ।"
-date: 2026-07-26 21:00:00 +0600
+date: 2026-07-26 13:00:00 +0600
 categories: [Fundamentals]
 tags: [dbms, database, acid, indexing, normalization]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "হাই লেভেল ডিজাইন (HLD)"
 description: "Load Balancer, Cache, CDN, CAP Theorem, Consistent Hashing, Rate Limiter, News Feed, Chat System।"
-date: 2026-07-26 14:00:00 +0600
+date: 2026-07-26 06:00:00 +0600
 categories: [System Design]
 tags: [hld, scalability, caching, sharding, interview]
 ---

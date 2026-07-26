@@ -1,7 +1,7 @@
 ---
 title: "অপারেটিং সিস্টেম"
 description: "Process vs Thread, Deadlock, Virtual Memory, Paging, CPU Scheduling ও Semaphore।"
-date: 2026-07-26 20:00:00 +0600
+date: 2026-07-26 12:00:00 +0600
 categories: [Fundamentals]
 tags: [os, process, memory, concurrency, deadlock]
 ---

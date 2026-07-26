@@ -1,7 +1,7 @@
 ---
 title: "টাইম কমপ্লেক্সিটি"
 description: "Big O, ডেটা স্ট্রাকচার ও অ্যালগরিদমের জটিলতার পূর্ণাঙ্গ টেবিল।"
-date: 2026-07-26 18:00:00 +0600
+date: 2026-07-26 10:00:00 +0600
 categories: [Fundamentals]
 tags: [algorithms, big-o, data-structures]
 ---

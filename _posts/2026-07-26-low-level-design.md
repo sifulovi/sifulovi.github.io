@@ -1,7 +1,7 @@
 ---
 title: "লো লেভেল ডিজাইন (LLD)"
 description: "১৭টা ক্লাসিক ডিজাইন প্রশ্ন — Parking Lot, Elevator, ATM, BookMyShow, Splitwise, Uber।"
-date: 2026-07-26 15:00:00 +0600
+date: 2026-07-26 07:00:00 +0600
 categories: [Programming]
 tags: [lld, oop, design-patterns, interview]
 ---

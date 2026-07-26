@@ -1,7 +1,7 @@
 ---
 title: "অথেনটিকেশন ও অথরাইজেশন"
 description: "OAuth 2.0, OIDC, JWT, PKCE, RBAC vs ABAC, SSO ও পাসওয়ার্ড হ্যাশিং।"
-date: 2026-07-26 13:00:00 +0600
+date: 2026-07-26 05:00:00 +0600
 categories: [System Design]
 tags: [security, oauth, jwt, authentication]
 ---

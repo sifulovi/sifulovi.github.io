@@ -1,7 +1,7 @@
 ---
 title: "ডিজাইন প্যাটার্ন"
 description: "SOLID, DRY, KISS, YAGNI এবং ১১টা ডিজাইন প্যাটার্ন — Go কোড উদাহরণ সহ।"
-date: 2026-07-26 16:00:00 +0600
+date: 2026-07-26 08:00:00 +0600
 categories: [Programming]
 tags: [design-patterns, solid, oop]
 ---

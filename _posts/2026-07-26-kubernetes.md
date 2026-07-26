@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes"
 description: "Pod, Deployment vs StatefulSet, Service, Ingress, HPA, ConfigMap, RBAC ও Helm।"
-date: 2026-07-26 11:00:00 +0600
+date: 2026-07-26 03:00:00 +0600
 categories: [System Design]
 tags: [kubernetes, devops, containers]
 ---
